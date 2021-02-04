@@ -1,0 +1,220 @@
+
+body {
+  padding-top:55px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/poddi.png");  
+  background-attachment: fixed;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:2;
+  background-color: #b3e9ff;
+  font-size: large;
+}
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+  background: white;
+}
+body::-webkit-scrollbar-thumb{
+  background: #c6efff;
+}
+.myfirst{
+  margin-left:150px;
+}
+a {
+  color: #00B7FF;
+  text-align: center;
+}
+.mycat{
+  width: 20px;
+  text-align: center;
+}
+[id=imagecardiv]{
+  background-color: #ffffff9f;
+}
+.vheight-100 {
+  min-height: 100vh;
+}
+[id*=Sepisode]{
+  width: 150em; 
+  height: auto; 
+}
+[id=decisionTable]{
+  width:100%;
+  height: 100%;
+}
+.mytd:focus-within>.mybutton
+.mytd{
+  background-color: rgba(255, 255, 255, 0.267);
+  text-align:center;
+  
+}
+.decisionA{
+  background-color: transparent;
+}
+.mybutton {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  outline-color: transparent;
+  overflow: hidden;
+  outline:none;
+  size: 100%;
+  height:1000px;
+  width: 1000px;
+  display: inline-block;
+  font-size: 100px;
+}
+.belownav2{
+  margin-top: 10rem;
+}
+.belownav{
+  margin-top: 2rem;
+}
+.belownav3{
+  margin-top: 1rem;
+}
+.mypod{
+  width: 500px;
+  margin-top: 1rem;
+  background-color: #ffffff9f;
+  display:inline-block;
+}
+.smallerbutton{
+  width:auto;
+  height:35px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+[id="login-form"]{
+  margin-top: 10rem;
+}
+[id=signup-form]{
+  margin-top: 10rem;
+}
+label{
+  background-color: white;
+  font-size: large;
+}
+[id^=Table]{
+  background-color: white;
+}
+[id=pxd]{
+  max-width: 540px;
+}
+[id^=flw]{
+  margin-left: 290px;
+}
+.mlbtn{
+  margin-left:220px;
+}
+.pad0{
+  padding-top:0;
+  padding-bottom: 0;
+}
+.belowpod{
+  background-color: #e2f7ff;
+  margin-top: 100px;
+}
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+form button {
+  float: left;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+input:invalid{
+  border: 2px solid rgba(255, 0, 0, 0.466);
+  content:"Erroe";
+}
+input:valid{
+  border: 2px solid green;
+}
+a.nav-link{
+  height:100;
+}
+svg{
+  text-align: center;
+  align-items: center;
+}
+a.nav-link:hover {
+  background-color:  #4aa2eb;
+  display: block;
+  height: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+form.search button:hover {
+  background: #4aa2eb;
+}
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul.menu{
+  font-size: 17px;
+}
+div[id="searchdiv"]{
+  display: flex;
+}
+[id=top3]{
+  margin-top: 2rem;
+  text-shadow: 0px 3px 0px #a1a1a1,
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 24px 2px rgba(0,0,0,0.1),
+  0px 34px 30px rgba(0,0,0,0.1);
+  font-size: 100px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.mybg{
+  background-color: #b3e9ffa1;
+}
+
+.pbg{
+  background-color: white;
+}
+.mytable tr:hover td{
+  background-color: rgba(0, 225, 255, 0.123);
+}
+.sponsor{
+  margin-top: 2rem;
+}
+.sponsor.label{
+  background-color: white;
+}

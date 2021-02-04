@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessandro Ruberto",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "page": "^1.11.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.0",
+    "xhr": "^2.6.0"
+  }
+}
