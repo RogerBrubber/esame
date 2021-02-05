@@ -122,7 +122,6 @@ app.get('/api/getseries/title/:title', (req, res) => {
 // Response body: podcast trovato
 
 app.get('/api/series/:code', (req, res) => {
-    console.log(req.params.code);
     sedao.getSeriesById(req.params.code)
         .then((series) => {res.json(series)})
         .catch((err) => {
@@ -602,7 +601,6 @@ app.put('/api/updatecomment',[
     if(!errors.isEmpty()) {
         return res.status(422).json({errors: errors.array()});
     }
-    console.log(req.body.code, req.body.text);
     epdao.updateComment(req.body.code, req.body.text)
         .then((result) => {
             if(result)
@@ -611,8 +609,7 @@ app.put('/api/updatecomment',[
                 res.status(200).end();
         })
         .catch((err) => {
-            console.log(err);res.status(500).json({
-            
+            res.status(500).json({
             errors: [{'param': 'Server', 'msg': err}],
         })});
 });
