@@ -84,7 +84,6 @@ exports.getSeriesById = function(code){
             if (err) 
                 reject(err);
             else {
-                console.log(rows);
                resolve(createSeries(rows));             
             }
         });
