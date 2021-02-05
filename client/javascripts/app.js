@@ -203,7 +203,6 @@ class App {
                  event.preventDefault();
                  let text ="";
                  text = document.getElementById('ricerca').value;
-                 console.log(text);
                  page.redirect(`/results/${text}/${flag}/${c}`)
                 })
          }
@@ -406,7 +405,6 @@ class App {
                             const errcrd = document.getElementById('errcard');
                             const errcvc = document.getElementById('errcvc');
                             const scad = document.getElementById("mese");
-                            console.log(form.card.value.length);
                             if(!/^\d+$/.test(form.card.value) || form.card.value.length!=16){ //controlla se è solo digit
                                 card.style.border="2px solid red";
                                 errcrd.innerHTML="Errore formato carta";
@@ -581,7 +579,6 @@ class App {
         for (const a of rows){
           if(a){
               a.addEventListener('click',async (event)=>{
-                console.log(a);
                 event.preventDefault();
                     if(user==null){//utente non loggato
                     this.showAlertMessage("danger","Accedi o Registrati per aggiungere i tuoi episodi ai preferiti");
@@ -923,7 +920,6 @@ class App {
                 if(price=="" || !/^\d+$/.test(price)){
                     price = ep.Price;
                 }
-                console.log(ep.Price);
                 try {
                     await Api.updateEpisode(
                         titolo,
